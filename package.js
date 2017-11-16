@@ -11,7 +11,7 @@ Package.onUse(function (api) {
 	api.use([
 		'meteor',
 		'jquery',
-		'fourseven:scss@3.4.3'
+		'fourseven:scss'
 	]);
 
 	api.addFiles([
@@ -106,7 +106,7 @@ Package.onTest(function(api) {
 	api.use([
 		'ecmascript',
 		'modules',
-		'fourseven:scss@3.4.3',
+		'fourseven:scss',
 		'jquery',
 		'tinytest',
 		'test-helpers'
